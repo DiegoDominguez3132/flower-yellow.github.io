@@ -1,0 +1,24 @@
+
+
+.menu{
+    margin-top: 80%;
+}
+
+body{
+    background-image: url(corazon2.jpg);
+}
+
+h1{
+    color: rosybrown;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color:black;
+}
+
+button{
+    margin-left:20%;
+    
+        background-color: pink;
+}

@@ -1,0 +1,117 @@
+body{
+    background-image: url("flroes.avif");
+}
+.flor{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    
+}
+.flor2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin-top:500px;
+}
+
+.petalo{
+    width: 100px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    margin: 50%;
+    animation: petalo 5s infinite;
+    
+
+}
+
+.petalo:nth-child(2){
+transform: translate(60%,40%)rotate(40deg);
+}
+.petalo:nth-child(3){
+    transform: translate(30%,70%)rotate(-40deg);
+
+}
+
+.petalo:nth-child(4){
+    transform: translate(-60%,70%)rotate(30deg);
+
+}
+.petalo:nth-child(5){
+    transform: translate(-70%,40%)rotate(-40deg);
+
+}
+
+
+
+
+.center{
+width: 80px;
+height: 80px;
+background-color: #bf8244;
+border-radius: 50%;
+position: absolute;
+margin-left:50% ;
+margin-top: 100%;
+
+}
+.palo{
+    width: 20px;
+    height: 300px;
+    background-color: #bf8244;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 140%;
+    animation: palo 5s infinite;
+}
+.hoja{
+    width: 50px;
+    height: 100px;
+    background-color: green;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 160%;
+    animation: hoja 5s infinite;
+        transform: translate(80%,10%)rotate(80deg);
+
+}
+
+
+
+@keyframes petalo{
+    0%{
+        transform: translateX(-50px );
+    }
+    30%{
+        transform: translateY(0) rotate(5deg);
+    }
+
+}
+
+
+
+@keyframes palo{
+    0%{
+        transform: translateY(100px );
+    }
+    
+
+}
+
+@keyframes hoja{
+    0%{
+        transform: translateY(40px );
+    }
+  
+    30%{
+        transform: translate(20%,0%)rotate(25deg);
+    }
+}
+
+button{
+    margin-top: 140%;
+    margin-left: 40%;
+}
